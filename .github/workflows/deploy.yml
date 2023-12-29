@@ -2,7 +2,7 @@ name: Deploy repository to Github Pages
 
 on:
   push:
-    branches: [ main, stable ]
+    branches: [ v24compatible ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -17,25 +17,25 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-    - name: Checkout main
+    - name: Checkout v24compatible
       uses: actions/checkout@v2
       with:
-        path: main
-        ref: main
+        path: v24compatible
+        ref: v24compatible
         fetch-depth: '0'
     - run: |
-        cd main
+        cd v24compatible
         ./build_site.sh ../_site/stable
     - name: Checkout dev
       uses: actions/checkout@v2
       with:
         path: dev
         # change this ref to whatever dev branch/tag we need when necessary
-        ref: main
+        ref: v24compatible
         fetch-depth: '0'
     - run: |
         cd dev
-        ../main/build_site.sh ../_site/develop
+        ../v24compatible/build_site.sh ../_site/develop
     - uses: actions/upload-pages-artifact@v2
     
   deploy:
