@@ -2,7 +2,7 @@ name: Deploy repository to Github Pages
 
 on:
   push:
-    branches: [ main, stable ]
+    branches: [ main, stable, v24compatible ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -31,7 +31,7 @@ jobs:
       with:
         path: dev
         # change this ref to whatever dev branch/tag we need when necessary
-        ref: main
+        ref: v24compatible
         fetch-depth: '0'
     - run: |
         cd dev
