@@ -19,8 +19,7 @@
         const reqData = {
             "variables": {
                 "scene_filter": {
-                    "stash_id": {
-                        "value": "",
+                    "stash_id_endpoint": {
                         "modifier": "NOT_NULL"
                     }
                 }
@@ -44,8 +43,7 @@
         const reqData = {
             "variables": {
                 "performer_filter": {
-                    "stash_id": {
-                        "value": "",
+                    "stash_id_endpoint": {
                         "modifier": "NOT_NULL"
                     }
                 }
@@ -69,8 +67,7 @@
         const reqData = {
             "variables": {
                 "studio_filter": {
-                    "stash_id": {
-                        "value": "",
+                    "stash_id_endpoint": {
                         "modifier": "NOT_NULL"
                     }
                 }
