@@ -1,0 +1,6 @@
+name: Place performer image in the background
+description: Place performer image in the background on performer page.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-PlacePerformerImageInTheBackground.css

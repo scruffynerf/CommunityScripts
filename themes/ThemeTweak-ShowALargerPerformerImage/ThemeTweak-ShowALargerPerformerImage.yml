@@ -1,0 +1,6 @@
+name: Show a larger Performer image
+description: Show a larger image in performer’s page for desktop.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-ShowALargerPerformerImage.css

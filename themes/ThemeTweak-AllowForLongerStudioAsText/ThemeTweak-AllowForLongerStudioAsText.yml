@@ -1,0 +1,6 @@
+name: Allow for longer Studio as Text
+description: Allow for longer string when displaying “Studio as Text” on scene thumbnails.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-AllowForLongerStudioAsText.css

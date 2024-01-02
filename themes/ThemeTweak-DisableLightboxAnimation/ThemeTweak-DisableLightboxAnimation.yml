@@ -1,0 +1,6 @@
+name: Disable lightbox animation
+description: Disable lightbox animation.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-DisableLightboxAnimation.css

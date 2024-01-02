@@ -1,0 +1,6 @@
+name: Hide 0 count badges
+description: Hide 0 count badges. by echo6ix
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-Hide0CountBadges.css

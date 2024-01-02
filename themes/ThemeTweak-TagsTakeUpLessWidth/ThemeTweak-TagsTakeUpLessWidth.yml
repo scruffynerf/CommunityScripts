@@ -1,0 +1,6 @@
+name: Tags take up less width
+description: Make the list of tags take up less width.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-TagsTakeUpLessWidth.css

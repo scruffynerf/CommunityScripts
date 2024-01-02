@@ -1,0 +1,6 @@
+name: Hide studio logo text
+description: Hide studio logo/text from scene card.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-HideStudioLogoText.css

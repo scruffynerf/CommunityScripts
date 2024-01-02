@@ -1,0 +1,6 @@
+name: Hide the truncated text
+description: This will hide the truncated text that appears under the tile and date.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-HideTheTruncatedText.css

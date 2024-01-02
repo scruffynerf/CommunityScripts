@@ -1,0 +1,6 @@
+name: Move tags in Performer edit to just after name
+description: Move the tags row in the Performer’s edit panel to the second position (just after name).
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-MoveTagsInPerformerEditToJustAfterName.css

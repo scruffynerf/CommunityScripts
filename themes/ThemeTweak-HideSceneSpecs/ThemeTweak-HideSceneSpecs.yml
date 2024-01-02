@@ -1,0 +1,6 @@
+name: Hide scene specs
+description: Hide scene specs (resolution, duration) from scene card.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-HideSceneSpecs.css

@@ -1,0 +1,6 @@
+name: Show larger performer images list
+description: Show larger performer images in performers list.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-ShowLargerPerformerImagesList.css

@@ -1,0 +1,6 @@
+name: Swap studio and Resolution Duration positions
+description: Swap studio and resolution/duration positions.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-SwapStudioAndResolutionDurationPositions.css

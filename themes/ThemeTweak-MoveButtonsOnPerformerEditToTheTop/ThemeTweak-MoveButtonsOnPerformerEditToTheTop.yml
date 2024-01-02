@@ -1,0 +1,6 @@
+name: Move buttons on Performer edit to the top
+description: Move the buttons in the Performer’s edit panel to the top instead of bottom (in newer version of Stash, the buttons are already positioned both at top and bottom.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-MoveButtonsOnPerformerEditToTheTop.css

@@ -1,0 +1,6 @@
+name: Disable lightbox image transition
+description: Disable lightbox image transition by echo6ix
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-DisableLightboxImageTransition.css

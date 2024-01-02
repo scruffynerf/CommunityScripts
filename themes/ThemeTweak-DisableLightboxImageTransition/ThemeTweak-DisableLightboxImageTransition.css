@@ -1,0 +1,5 @@
+/* [Gallery tab] Disable lightbox image transition */
+.Lightbox-carousel {
+transition: unset;
+}
+

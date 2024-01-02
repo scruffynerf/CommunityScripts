@@ -1,0 +1,6 @@
+name: No crop preview thumbnails
+description: Don’t crop preview thumbnails.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-NoCropPreviewThumbnails.css

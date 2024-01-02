@@ -1,0 +1,6 @@
+name: Border around cards activated with checkbox selection
+description: Add a noticeable border around any cards that have been selected using the checkbox selection. Border color uses Stash’s --primary color variable to maintain consistency with any theme that uses Stash’s color variables. by echo6ix
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-BorderAroundCardsActivatedWithCheckboxSelection.css

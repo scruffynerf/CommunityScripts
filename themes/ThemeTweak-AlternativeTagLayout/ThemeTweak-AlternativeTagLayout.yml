@@ -1,0 +1,6 @@
+name: Alternative tag layout
+description: Changes the tags layout to show more images, and details on hover by hijack_hornet
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-AlternativeTagLayout.css

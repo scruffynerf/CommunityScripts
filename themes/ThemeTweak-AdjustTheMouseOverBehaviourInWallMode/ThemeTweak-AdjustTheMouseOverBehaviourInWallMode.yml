@@ -1,0 +1,6 @@
+name: Adjust the mouse over behaviour in wall mode
+description: Adjust the mouse over behaviour in wall mode.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-AdjustTheMouseOverBehaviourInWallMode.css

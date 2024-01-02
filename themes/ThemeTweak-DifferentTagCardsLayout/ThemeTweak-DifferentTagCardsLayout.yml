@@ -1,0 +1,6 @@
+name: Different tag cards layout
+description: Changes the layout of tag cards on tags tab and when hovering on tags in different content by Qx#1573
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-DifferentTagCardsLayout.css

@@ -1,0 +1,6 @@
+name: Blur NSFW images
+description: Use for when working on stash but don’t want to expose NSFW images and text. May not be exhaustive.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-BlurNsfwImages.css

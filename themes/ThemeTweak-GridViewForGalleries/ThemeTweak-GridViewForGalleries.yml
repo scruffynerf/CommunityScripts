@@ -1,0 +1,6 @@
+name: Grid view for galleries
+description: Grid view for galleries.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-GridViewForGalleries.css

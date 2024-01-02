@@ -1,0 +1,6 @@
+name: Fit more thumbnails
+description: Reduce left and right padding on Scene and Performer grid pages allowing for more thumbnails on each row.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-FitMoreThumbnails.css

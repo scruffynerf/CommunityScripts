@@ -1,0 +1,6 @@
+name: Disable zoom on hover in wall mode
+description: Disable zoom on hover in wall mode.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-DisableZoomOnHoverInWallMode.css

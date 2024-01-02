@@ -1,0 +1,6 @@
+name: Hide the lightbox header and footer
+description: Show entire performer image in performer card.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-HideTheLightboxHeaderAndFooter.css

@@ -1,0 +1,6 @@
+name: Change the order of navigation bar buttons
+description: Use order values below 0 to move specific buttons to the left of the non-ordered buttons, and values above 1 to move them to the right of the non-ordered buttons.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-ChangeTheOrderOfNavigationBarButtons.css

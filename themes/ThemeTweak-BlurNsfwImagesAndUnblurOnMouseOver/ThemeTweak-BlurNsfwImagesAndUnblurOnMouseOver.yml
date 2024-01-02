@@ -1,0 +1,6 @@
+name: Blur NSFW images and unblur on mouse over
+description: Blur NSFW images and unblur on mouse over by fl0w#9497
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-BlurNsfwImagesAndUnblurOnMouseOver.css

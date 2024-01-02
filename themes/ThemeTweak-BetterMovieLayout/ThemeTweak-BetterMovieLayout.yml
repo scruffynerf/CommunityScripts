@@ -1,0 +1,6 @@
+name: Better Movie layout
+description: Making the front and back image much bigger. Left panel uses 70% while the right uses 30%.
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-BetterMovieLayout.css

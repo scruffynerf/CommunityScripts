@@ -1,0 +1,6 @@
+name: Different studio cards layout
+description: Changes the layout of studio cards by Qx#1573
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-DifferentStudioCardsLayout.css

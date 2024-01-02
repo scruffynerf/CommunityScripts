@@ -1,0 +1,5 @@
+/* [Global changes] Modify card when checkbox is selected */
+.grid-card.card:has(input:checked) {
+box-shadow: 0 0 0 1px var(--primary,rgba(255, 255, 255, 0.30));
+}
+

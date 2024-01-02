@@ -1,0 +1,6 @@
+name: More studios per row
+description: Display more studio per row by hijack_hornet
+version: 1.0
+ui:
+  css:
+  - ThemeTweak-MoreStudiosPerRow.css
