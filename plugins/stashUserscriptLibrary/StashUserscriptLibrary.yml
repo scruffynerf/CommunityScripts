@@ -4,3 +4,4 @@ version: 1.0
 ui:
   javascript:
   - stashUserscriptLibrary.js
+

@@ -11,3 +11,4 @@ tasks:
     description: Search for duplicate markers
     defaultArgs:
       mode: search
+

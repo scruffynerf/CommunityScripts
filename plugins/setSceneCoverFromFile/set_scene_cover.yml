@@ -1,4 +1,4 @@
-name: Set Scene Cover 
+name: Set Scene Cover
 description: searches Stash for Scenes with a cover image in the same folder and sets the cover image in stash to that image
 version: 0.4
 url: https://github.com/stg-annon/CommunityScripts/tree/main/plugins/setSceneCoverFromFile
@@ -15,3 +15,4 @@ tasks:
     description: searches for cover images and sets any stash scene found in the same dir to that image
     defaultArgs:
       mode: set_cover
+

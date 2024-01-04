@@ -8,7 +8,7 @@ interface: js
 hooks:
   - name: Run Rules on scan
     description: Updates scene info whenever a new scene is added.
-    triggeredBy: 
+    triggeredBy:
       - Scene.Create.Post
 tasks:
   - name: Create Tags

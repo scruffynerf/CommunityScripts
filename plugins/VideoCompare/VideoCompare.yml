@@ -1,4 +1,4 @@
-# author: github.com/scruffynerf 
+# author: github.com/scruffynerf
 name: Stash Video Compare Userscript
 # requires: StashUserscriptLibrary
 url: https://gist.github.com/DogmaDragon/fb3ed033c0d1f0a6811137dfea0c4ce8
@@ -9,3 +9,4 @@ ui:
   - StashUserscriptLibrary
   javascript:
   - VideoCompare.js
+
