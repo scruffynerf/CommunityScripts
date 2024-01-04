@@ -1,0 +1,7 @@
+/* Adds a warning to not install all items (if someone did so) */
+.navbar-brand::after {
+  font-weight: bold;
+  color: red;
+  content: 'You installed ALL the plugins? Bad idea. Go fix this.';
+}
+

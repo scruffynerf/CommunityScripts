@@ -1,0 +1,6 @@
+name: zzz Don't Install All Items
+description: This adds a warning if someone is silly enough to install everything at once.
+version: 1.0
+ui:
+  css:
+  - zzz.css
