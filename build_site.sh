@@ -54,17 +54,17 @@ buildPlugin()
   version: $version
   date: $updated
   path: $plugin_id.zip
-  sha256: $(sha256sum "$zipfile" | cut -d' ' -f1)" >> "$outdir"/index.yml
+  sha256: $(sha256sum "$zipfile" | cut -d' ' -f1)" >> "$outdir"/scruffyindex.yml
 
     # handle dependencies
     if [ ! -z "$dep" ]; then
-        echo "  requires:" >> "$outdir"/index.yml
+        echo "  requires:" >> "$outdir"/scruffyindex.yml
         for d in ${dep//,/ }; do
-            echo "    - $d" >> "$outdir"/index.yml
+            echo "    - $d" >> "$outdir"/scruffyindex.yml
         done
     fi
 
-    echo "" >> "$outdir"/index.yml
+    echo "" >> "$outdir"/scruffyindex.yml
 }
 
 find ./plugins -mindepth 1 -name *.yml | while read file; do
