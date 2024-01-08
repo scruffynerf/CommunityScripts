@@ -1,6 +1,6 @@
 name: Batch Result Toggle
 # requires: StashUserscriptLibrary
-description:
+description:  Batch Results Toggle
 version: 0.4.2
 ui:
   requires:
